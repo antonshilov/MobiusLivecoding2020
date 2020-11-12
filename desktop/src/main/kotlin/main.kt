@@ -15,19 +15,16 @@ fun main() = Window {
     var text by remember { mutableStateOf("Hello, World!") }
 
     MaterialTheme {
-        Greeting("Kek")
+        Greeting("Sup")
     }
 }
 
 
-@OptIn(ExperimentalLayout::class)
 @Composable
 fun Greeting(name: String) {
     FlowRow() {
-
-        Text(text = "Hello $name!")
-        for (icon in Icons.AllAssets) {
-            Image(icon, modifier = Modifier.size(48.dp))
+        Icons.AllAssets.forEach {
+            Image(it)
         }
     }
 }

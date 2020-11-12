@@ -2,7 +2,7 @@ package com.antonshilov.mobiuslivecoding20.data
 
 object Lexems {
     val profileName = "Екатерина"
-    val profileNameMe = "Пётр"
+    val profileNameMe = "Антон"
     val profileTitle = "У вас подключено"
     val profileDescription = "Подписки, автоплатежи и сервисы, на которые вы подписались"
     val profileRatesSettingsTitle = "Тарифы и лимиты"
