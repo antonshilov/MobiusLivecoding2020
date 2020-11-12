@@ -22,6 +22,7 @@ dependencies {
 
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "11"
+    kotlinOptions.freeCompilerArgs += "-Xopt-in=androidx.compose.foundation.layout.ExperimentalLayout"
 }
 
 compose.desktop {

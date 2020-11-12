@@ -10,12 +10,13 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.antonshilov.mobiuslivecoding20.SettingsScreen
 
 fun main() = Window {
     var text by remember { mutableStateOf("Hello, World!") }
 
     MaterialTheme {
-        Greeting("Sup")
+        SettingsScreen()
     }
 }
 
