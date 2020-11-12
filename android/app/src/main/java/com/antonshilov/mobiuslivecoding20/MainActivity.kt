@@ -81,7 +81,7 @@ private val sberColor = Color(0xFF08A652)
 fun SettingsScreen() {
     Scaffold {
         ScrollableColumn {
-//            Header()
+            Header()
             Column(modifier = Modifier.padding(horizontal = 16.dp)) {
                 Section(Lexems.profileTitle, Lexems.profileDescription) {
                     ScrollableRow {
